@@ -5,7 +5,8 @@ import java.time.format.DateTimeFormatter;
 public class Principal{
     public static void main(String [] args){
         
-        System.out.print("Hola mundo");
+        System.out.println("Hola mundo");
+        System.out.println("Fecha y hora 'now': " + fechaHora());
     }
 
     public static String fechaHora() {
